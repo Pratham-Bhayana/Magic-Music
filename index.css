@@ -1,0 +1,496 @@
+*{
+  margin: 0;
+  top: 0;
+  right: 0;
+}
+
+body{
+
+width: 100%;
+  overflow-x: hidden;
+  font-family: agency fb;
+}
+
+.bg{
+backdrop-filter: blur(2px);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+header{
+box-shadow: 1px 1px 10px 1px white;
+ 
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 0;
+  margin-right: 5%;
+  backdrop-filter: blur(20px);
+  width: 98.5%;
+  height: 100%;
+}
+.logo-name{
+font-size: 25px;
+color: wheat;
+pad: 10px 20px;
+margin-left: 25px;
+margin-top: 5px;
+}
+
+
+
+.menu-items{
+  gap: 20px;
+  align-items: center;
+  display: flex;
+list-style-type: none;
+margin-left: -20px;
+  
+}
+
+li{
+ padding: 10px 10px;
+ transition: 1s ease;
+ cursor: pointer;
+}
+
+li:hover{
+scale: 1.1;
+background-color: grey;
+backdrop-filter: blur(5px);
+}
+
+a{
+  text-decoration: none;
+  color: wheat;
+
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.thumbnail{
+
+height: 120px;
+margin-bottom: 5px;
+
+}
+
+.content h1{
+padding: 10px 15px;
+border-radius: 15px;
+position: relative;
+height: 50px;
+background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  letter-spacing: 10px;
+  font-size: 35px;
+  stroke: 1px rgb(0, 0, 0);
+}
+
+.container{
+  backdrop-filter: blur(50px);
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-side , .right-side{
+  width: 50%;
+  height: 100vh;
+ 
+}
+
+.cards {
+  gap: 10px;
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+}
+
+.play{
+position: absolute;
+right: 50px;
+top:50px;
+width: 100px;        
+height: 100px;      
+visibility: hidden;       
+cursor: pointer;
+opacity: 0;
+transform: scale(0.8);
+transition: opacity 0.3s ease-in, transform 0.3s ease-in, visibility 0.3s ease-in;
+ 
+}
+
+.play-2{
+position: absolute;
+right: 25px;
+top:25px;
+width: 100px;        
+height: 100px;      
+visibility: hidden;       
+cursor: pointer;
+opacity: 0;
+transform: scale(0.8);
+transition: opacity 0.3s ease-in, transform 0.3s ease-in, visibility 0.3s ease-in;
+ 
+}
+.genre-1:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+backdrop-filter: blur(50px);/* Scale it up to full size */
+}
+
+
+.genre-1{
+
+position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #D1E9F6;
+  border-radius: 10px;
+}
+
+.genre-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #F1D3CE;
+  border-radius: 10px;
+}
+
+.genre-2:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+
+}
+
+.genre-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #F6EACB;
+  border-radius: 10px;
+}
+
+.genre-3:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+
+}
+
+.genre-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #E6A4B4;
+  border-radius: 10px;
+}
+
+.genre-4:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+
+}
+
+.genre-5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #CCD5AE;
+  border-radius: 10px;
+}
+
+.genre-5:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+
+}
+
+.genre-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #7BD3EA;
+  border-radius: 10px;
+}
+
+.genre-6:hover .play{
+opacity: 1;          /* Show the play button by changing opacity */
+visibility: visible; /* Make it visible */
+transform: scale(1); 
+
+}
+
+
+
+.cat-lang{
+gap: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.hindi , .english{
+
+width: 300px;
+height: 100px;
+}
+
+
+
+
+.search-bar-container {
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+  padding: 20px;
+}
+
+#search-bar {
+  width: 70%;
+  min-width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #00b109;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 255, 42, 0.1);
+}
+
+.category{
+  flex-wrap: wrap;
+  gap: 30px;
+display: flex;
+  
+}
+
+.title{
+  margin-top: 10px;
+  color:rgb(174, 169, 255);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cat-cicrle-1{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient(13deg, rgba(234,236,204,1) 49%, rgba(0,212,255,1) 100%);
+  border-radius: 360%;
+}
+.cat-cicrle-1:hover .play-2 {
+  opacity: 1;          /* Show the play button by changing opacity */
+  visibility: visible; /* Make it visible */
+  transform: scale(1); 
+}
+.mood-img{
+  height: 150px;
+  border-radius: 360%;
+}
+
+.tittle-cat{
+  padding: 20px 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.mood-name{
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(56, 56, 56);
+  font-style: italic;
+}
+
+.three{
+  backdrop-filter: blur(20px);
+  height: 100vh;
+  width: 100%;
+}
+
+.tittle-cat{
+  text-align: center;
+  padding: 10px 14px;
+  backdrop-filter: blur(2px);
+  background-color: rgb(59, 59, 59);
+}
+
+.genre{
+
+margin-top: 5%;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+footer{
+  box-shadow: 10px 10px 10px 10px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  
+}
+
+.footer-items{
+  position: fixed;
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  
+}
+
+.footer-items a{
+  color: rgb(167, 157, 157);
+}
+
+.foot-logo-name{
+  margin-top: 15px;
+  padding: 10px 15px;
+}
+
+.foot-logo-name h{
+  color: white;
+  font-size: 20px;
+}
+
+.foot-logo-name p{
+  color: rgb(167, 157, 157);
+}
+
+.foot-logo-name a{
+  color: rgb(167, 157, 157);
+}
+
+.mp {
+  background-color: rgb(36, 7, 7);
+  position: fixed ; /* Keeps the player fixed in place */
+  
+  width: 100%; /* Stretches it to full width */
+  height: 80px; /* Height of the music player */
+  margin-top: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+}
+
+.music-player{
+display: flex;
+justify-content: space-between;
+left: 50%;
+}
+.song-info {
+padding: 10px 14px;
+left: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+/* padding-right: 25%; */
+}
+
+.song-name, .artist-name {
+color: wheat;
+font-weight: 700;
+font-size: 20px;
+margin: 0;
+}
+
+
+
+button {
+background: none;
+border: none;
+cursor: pointer;
+transition: transform 0.3s;
+}
+
+button:hover {
+transform: scale(1.1); /* Slightly increase size on hover for effect */
+}
+
+#icon{
+height: 30px;
+}
+
+.controls{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px 14px;
+gap: 10px;
+
+}
+
+.progress-container {
+display: flex;
+align-items: center;
+width: 100%;
+}
+
+.current-time, .duration {
+font-size: 0.8em;
+color: wheat;
+}
+
+.progress-bar {
+flex: 1;
+margin: 0 10px;
+cursor: pointer;
+}
