@@ -558,6 +558,10 @@ height: 150px;
   display: flex;
 }
 
+h3{
+  font-size: 14px;
+}
+
 .right-side{
   /* width: 50%; */
 }
@@ -580,7 +584,8 @@ height: 150px;
 }
 
 .thumbnail{
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 
 .cat-cicrle-1{
@@ -632,4 +637,6 @@ footer{
     line-height: 50px; /* Center text vertically in the footer */
 
 }
+
+
 }
