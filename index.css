@@ -22,15 +22,7 @@ object-fit: cover;
 }
 
 
-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
-  z-index: -1;
-}
+
 
 header{
 box-shadow: 1px 1px 10px 1px white;
@@ -162,10 +154,10 @@ transition: opacity 0.3s ease-in, transform 0.3s ease-in, visibility 0.3s ease-i
  
 }
 .genre-1:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;         
+visibility: visible;
 transform: scale(1); 
-backdrop-filter: blur(50px);/* Scale it up to full size */
+backdrop-filter: blur(50px);
 }
 
 
@@ -194,8 +186,8 @@ position: relative;
 }
 
 .genre-2:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;          
+visibility: visible; 
 transform: scale(1); 
 
 }
@@ -212,8 +204,8 @@ transform: scale(1);
 }
 
 .genre-3:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;         
+visibility: visible; 
 transform: scale(1); 
 
 }
@@ -230,8 +222,8 @@ transform: scale(1);
 }
 
 .genre-4:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;          
+visibility: visible; 
 transform: scale(1); 
 
 }
@@ -248,8 +240,8 @@ transform: scale(1);
 }
 
 .genre-5:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;          
+visibility: visible; 
 transform: scale(1); 
 
 }
@@ -266,8 +258,8 @@ transform: scale(1);
 }
 
 .genre-6:hover .play{
-opacity: 1;          /* Show the play button by changing opacity */
-visibility: visible; /* Make it visible */
+opacity: 1;         
+visibility: visible; 
 transform: scale(1); 
 
 }
@@ -334,8 +326,8 @@ display: flex;
   border-radius: 360%;
 }
 .cat-cicrle-1:hover .play-2 {
-  opacity: 1;          /* Show the play button by changing opacity */
-  visibility: visible; /* Make it visible */
+  opacity: 1;         
+  visibility: visible;
   transform: scale(1); 
 }
 .mood-img{
@@ -431,7 +423,7 @@ footer{
   justify-content: center;
   align-items: center;
  z-index: 1000;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .music-player{
@@ -467,7 +459,7 @@ transition: transform 0.3s;
 }
 
 button:hover {
-transform: scale(1.1); /* Slightly increase size on hover for effect */
+transform: scale(1.1); 
 }
 
 #icon{
@@ -518,7 +510,7 @@ cursor: pointer;
     
   }
   .bg{
-    /* height: 100vh; */
+
     width: 100%;
 
   }
@@ -555,10 +547,10 @@ height: 150px;
 .container{
   
   padding-left: 10%;
-  /* position: relative; */
+
   backdrop-filter: blur(20px);
   overflow-x: hidden;
-  /* overflow-y: hidden; */
+
   width: 100%;
   gap: 25px;
   display: flex;
@@ -640,9 +632,9 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px; /* Set the height of the footer */
+    height: 50px; 
     background-color: #f4f4f4;
-    line-height: 50px; /* Center text vertically in the footer */
+    line-height: 50px; 
 
 }
 
