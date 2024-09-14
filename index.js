@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isRepeating = false;
 
     function showPlayer() {
-        playerContainer.style.display = 'block'; // Make the player visible
+        // playerContainer.style.display = 'block'; 
     }
 
     // Define a playlist with song objects
